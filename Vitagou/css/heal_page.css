@@ -1,0 +1,17 @@
+@charset "UTF-8";
+/*主体部分*/
+body {
+  background: #faf7f0; }
+
+.heal_main {
+  width: 1190px;
+  margin: 0 auto;
+  position: relative; }
+
+.heal_title {
+  width: 100%;
+  height: 80px;
+  line-height: 80px;
+  color: #333333; }
+
+/*# sourceMappingURL=heal_page.css.map */

@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": ";AAAA,QAAQ;AACR,IAAK;EACH,UAAU,EAAE,OAAO;;AAErB,UAAU;EACR,KAAK,EAAE,MAAM;EACb,MAAM,EAAE,MAAM;EACd,QAAQ,EAAE,QAAQ;;AAEpB,WAAW;EACT,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;EACZ,WAAW,EAAE,IAAI;EACjB,KAAK,EAAE,OAAO",
+"sources": ["heal_page.scss"],
+"names": [],
+"file": "heal_page.css"
+}
