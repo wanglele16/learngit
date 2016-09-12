@@ -3,12 +3,18 @@
  */
 $(function() {
 
-    //µã»÷ÏÔÊ¾»òÒş²Ø²Ëµ¥
+    //ç‚¹å‡»æ˜¾ç¤ºæˆ–éšè—èœå•
     /*$(".nav_all").click(function() {
         $(".menu_item").toggle();
     });*/
 
-    //²Ëµ¥²¿·ÖÒÆÈëÏÔÊ¾
+    //å…³é—­å¤´éƒ¨å¹¿å‘Š
+    /*$('.close_btn').click(function(){
+        $('.top_adver').hide();
+    });*/
+
+
+    //èœå•éƒ¨åˆ†ç§»å…¥æ˜¾ç¤º
     $(".menu_item1").mouseenter(function() {
         $(".menu_item1").find("label").remove();
         $(this).append("<label></label>");
@@ -16,7 +22,7 @@ $(function() {
         $(".menu_right").eq($(this).index()).show();
     });
 
-    //²Ëµ¥ÓÒ²¿·ÖÒÆ³öÒş²Ø
+    //èœå•éƒ¨åˆ†ç§»å‡ºéšè—
     $(".menu_right").mouseleave(function(){
         $(".menu_right").hide();
         $(".menu_item1").find("label").remove();

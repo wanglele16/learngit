@@ -14,7 +14,7 @@ a, a:hover {
   color: #000000; }
 
 html, body {
-  background: #f2f2f2; }
+  background: #f2f2f2 !important; }
 
 input[type=button], input[type=submit], input[type=file], button {
   cursor: pointer;
@@ -240,7 +240,7 @@ em, i {
   .a_linkBox span {
     font-size: 14px;
     color: #cccccc;
-    margin-right: 8px; }
+    margin-right: 5px; }
   .a_linkBox span:hover {
     color: #d30939; }
 
@@ -312,7 +312,7 @@ em, i {
   position: absolute;
   top: 40px;
   left: 0;
-  z-index: 9; }
+  z-index: 10; }
 
 .menu_left {
   background: #262626;
@@ -410,5 +410,229 @@ em, i {
         height: 100%;
         width: 100%;
         border: none; }
+
+/*底部流程介绍*/
+.footer_top {
+  width: 100%;
+  height: 121px;
+  border-bottom: 1px solid #CCCCCC;
+  background: #FFFFFF; }
+
+.footer_top_main {
+  width: 1190px;
+  height: 121px;
+  display: block;
+  margin: 0 auto;
+  background: #FFFFFF;
+  overflow: hidden; }
+
+.footer_inforbox {
+  width: 100%;
+  height: 244px;
+  background: #f3f3f3; }
+
+.footer_block {
+  width: 1190px;
+  height: 206px;
+  padding-top: 38px;
+  margin: 0 auto;
+  background: #f3f3f3; }
+
+.block_one {
+  width: 224px;
+  height: 164px;
+  padding-top: 6px;
+  float: left;
+  border-right: 1px solid #e5e5e5; }
+
+.phone_png {
+  width: 190px;
+  padding-bottom: 5px;
+  border-bottom: 2px solid #D30939; }
+  .phone_png span {
+    width: 20px;
+    height: 22px;
+    display: block;
+    margin-top: 2px;
+    float: left;
+    margin-right: 8px;
+    background: url(../img/icon.png) no-repeat -74px 0; }
+  .phone_png label {
+    color: #d30939;
+    font-size: 22px;
+    font-weight: bold; }
+
+.time {
+  width: 190px;
+  text-align: center;
+  font-size: 12px;
+  color: #D30939;
+  margin: 5px 0 10px 0; }
+
+.wx_sina {
+  width: 130px;
+  height: 32px;
+  line-height: 32px;
+  color: #808080;
+  font-size: 12px;
+  margin-left: 23px; }
+
+.wx_sina a {
+  position: relative; }
+
+.wx_sina span {
+  width: 32px;
+  height: 32px;
+  display: block;
+  float: right;
+  background: url(../img/icon.png) no-repeat -132px 0; }
+
+.wx_sina a.wx span {
+  margin: 0 0 0 10px;
+  background: url(../img/icon.png) no-repeat -165px 0; }
+
+.wx_sina a img {
+  width: 96px;
+  height: 96px;
+  padding: 2px;
+  border: 1px solid #CCCCCC;
+  background: #FFFFFF;
+  position: absolute;
+  top: 28px;
+  display: none; }
+
+.wx_sina a.wx img {
+  left: 18px; }
+
+.wx_sina a.sina img {
+  left: -25px; }
+
+.wx_sina a.wx:hover img {
+  display: block; }
+
+.wx_sina a.sina:hover img {
+  display: block; }
+
+.currency {
+  width: 150px;
+  height: 164px;
+  padding-top: 6px;
+  float: left;
+  border-left: 1px solid #FFFFFF;
+  border-right: 1px solid #E5E5E5; }
+
+.currency:last-child {
+  border: none; }
+
+.currency label {
+  width: 100%;
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  color: #666666;
+  text-align: center; }
+
+.currency li {
+  width: 100%;
+  height: 25px;
+  line-height: 30px;
+  text-align: center;
+  font-size: 12px; }
+
+.currency li a {
+  color: #666666; }
+
+.currency li a:hover {
+  color: #D30939; }
+
+.block_seven {
+  border-left: 1px solid #ffffff;
+  float: left;
+  height: 164px;
+  padding-top: 6px;
+  width: 204px; }
+  .block_seven span {
+    width: 100%;
+    text-align: center;
+    color: #666666;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 5px;
+    display: block; }
+  .block_seven img {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: 0 auto 10px; }
+  .block_seven label {
+    display: block;
+    font-size: 12px;
+    text-align: center;
+    color: #666666; }
+
+.footer_bottom {
+  width: 100%;
+  height: 175px;
+  padding-top: 20px;
+  background: #333333; }
+
+.one_list {
+  width: 480px;
+  height: 25px;
+  margin: 0 auto; }
+  .one_list li {
+    height: 25px;
+    float: left;
+    color: #cccccc; }
+    .one_list li a {
+      font-size: 12px;
+      color: #cccccc;
+      padding: 0 5px; }
+      .one_list li a:hover {
+        color: #D30939; }
+
+.two_list {
+  width: 700px;
+  height: 25px;
+  margin: 2px auto 0;
+  padding-top: 10px; }
+  .two_list li {
+    float: left;
+    color: #CCCCCC;
+    text-align: center; }
+    .two_list li a {
+      font-size: 12px;
+      color: #CCCCCC;
+      padding: 0 23px;
+      position: relative; }
+      .two_list li a:hover {
+        color: #D30939; }
+      .two_list li a span {
+        width: 19px;
+        height: 19px;
+        display: block;
+        float: left;
+        position: absolute;
+        top: -1px;
+        left: 0;
+        background: url(../img/icon.png) no-repeat -35px 0; }
+  .two_list li.pad_pg {
+    padding: 0 15px; }
+    .two_list li.pad_pg span {
+      background: url(../img/icon.png) no-repeat -55px 0; }
+
+.three_list {
+  width: 620px;
+  text-align: center;
+  margin-top: 10px; }
+  .three_list li a {
+    cursor: default; }
+    .three_list li a:hover {
+      color: #CCCCCC;
+      cursor: default; }
+
+.four_list {
+  width: 450px;
+  margin-top: 10px; }
 
 /*# sourceMappingURL=global_new.css.map */

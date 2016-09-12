@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>维他购·荟萃全球保健品 - Vitagou</title>
+    <meta name="description" content="维他购健康百科为您提供专业的健康小常识、保健养生知识、男性健康、女性健康、儿童营养、老年保健等全方面健康知识，为您贴心解答生活中最常见的健康问题。">
+    <meta name="keywords" content="健康百科,健康资讯,健康小常识,保健养生知识,男性健康,女性健康,老年保健,儿童营养,健康饮食,皮肤保养,健康饮食">
+    <link type="text/css" rel="stylesheet" href="../css/global_new.css" />
+    <link type = "text/css" rel = "stylesheet" href = "../css/vt_index.css" />
+    <link type = "text/css" rel = "stylesheet" href = "../css/heal_page.css" />
+    <link type = "text/css" rel = "stylesheet" href = "../css/iconfont.css" />
+    <link type = "text/css" rel = "stylesheet" href = "../css/hk.css" />
+
+    <script src = "../js/jquery-3.1.0.js"></script>
+    <script type = "text/javascript" src = "../js/global_new.js"></script>
+    <script type="text/javascript" src="../js/fade.js"></script>
+    <script type = "text/javascript" src = "../js/heal_page.js"></script>
+</head>
+<body>
+
+<!--头部广告位置处-->
+<div class="top_adver">
+    <a href="#">
+        <img src="../img/top_adver.jpg" alt="维他购母婴活动" border="0" class="img_adver">
+    </a>
+</div>
+
+<!--登录、注册等信息处-->
+<div class = "infor_com">
+    <div class = "infor_box">
+        <label class = "names_t">欢迎光临维他购！</label>
+        <!--登录注册部分列表-->
+        <ul class = "infor_list">
+            <li><a href = "#">登录</a></li>
+            <li>|</li>
+            <li><a href = "#">免费注册</a></li>
+            <li>|</li>
+            <li class = "mobile_dw">
+                <a href = "#">维他购移动版</a>
+                <div class = "qr">
+                    <span></span>
+                    <img src = "../img/mob_public_num.jpg" />
+                </div>
+            </li>
+            <li>|</li>
+            <li><a href = "#">维他购APP</a></li>
+        </ul>
+        <!--订单、个人中心列表-->
+        <ul class = "my_list">
+            <li><a href = "#">我的订单</a></li>
+            <li>|</li>
+            <li class="gr_hover">
+                <a href = "#">个人中心<span></span></a>
+                <ul class = "gr_list">
+                    <li><a href = "#">收货地址&amp;实名认证</a></li>
+                    <li><a href = "#">我的收藏</a></li>
+                </ul>
+            </li>
+            <li>|</li>
+            <li class = "kf_hover">
+                <a href = "#">客户服务<span></span></a>
+                <ul class = "kf_list">
+                    <li><a href = "#">联系客服</a></li>
+                    <li><a href = "#">帮助中心</a></li>
+                </ul>
+            </li>
+            <li>|</li>
+            <li><a href = "#">购物须知</a></li>
+            <li>|</li>
+            <li><a href = "#">收藏我们</a></li>
+        </ul>
+    </div>
+</div>
+
+<!--logo、搜索框-->
+<div class = "ise_com">
+    <div class = "ise_box">
+        <a href = "#">
+            <img src = "../img/logo.jpg" class = "logo_img" alt = "logo" border = "0" />
+        </a>
+        <a class = "adver_sp">
+            <img src = "../img/ad.gif" />
+        </a>
+        <div class = "input_box">
+            <ul class = "title_list">
+                <li class = "bjRed">搜商品</li>
+            </ul>
+            <form class = "select_sp select_box">
+                <input type = "text" class = "select_sp" id = "s1_goods" placeholder="输入您想要的商品名称" />
+                <input type="submit" class="sp_subbtn" id="s1_search" value="搜索">
+                <div class="a_linkBox">
+                    <span style="cursor: pointer;" onclick="$(&#39;#s1_goods&#39;).val(&#39;氨基葡萄糖&#39;);">氨基葡萄糖</span>
+                    <span style="cursor: pointer;" onclick="$(&#39;#s1_goods&#39;).val(&#39;膳食纤维&#39;);">膳食纤维</span>
+                    <span style="cursor: pointer;" onclick="$(&#39;#s1_goods&#39;).val(&#39;氨糖&#39;);">氨糖</span>
+                    <span style="cursor: pointer;" onclick="$(&#39;#s1_goods&#39;).val(&#39;左旋肉碱&#39;);">左旋肉碱</span>
+                    <span style="cursor: pointer;" onclick="$(&#39;#s1_goods&#39;).val(&#39;蔓越莓&#39;);">蔓越莓</span>
+                    <!--<a href="#">维生素</a>
+                    <a href="#">鱼油</a>
+                    <a href="#">蛋白棒</a>
+                    <a href="#">罗汉果茶</a>
+                    <a href="#">增肌粉</a>
+                    <a href="#">冲刺先生</a>-->
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!--菜单导航-->
+<div class = "nav_com">
+    <div class = "nav_menu">
+        <p class = "nav_all">全部商品分类</p>
+        <ul class = "nav_list">
+            <li><a href = "#"><span></span>维他购商城</a></li>
+            <li><a href = "#">品牌荟萃</a></li>
+            <li><a href = "#">限时特卖</a></li>
+            <li><a href = "#">健康自测</a></li>
+            <li><a href = "#">健康百科</a></li>
+        </ul>
+        <p class = "nav_cart">
+            <a href = "#"><span></span>我的购物车</a>
+        </p>
+        <div class = "menu_item">
+            <div class = "menu_left">
+                <div class = "menu_item1">
+                    <span>目的功能</span>
+                    <ul class = "menu_list">
+                        <li><a href = "#">基础营养</a></li>
+                        <li><a href = "#">体重管理</a></li>
+                        <li><a href = "#">调节血糖</a></li>
+                        <li><a href = "#">增强免疫力</a></li>
+                        <li><a href = "#">关节保养</a></li>
+                        <li><a href = "#">心脑血管</a></li>
+                        <li><a href = "#">传统滋补</a></li>
+                        <li><a href = "#">运动营养</a></li>
+                        <li><a href = "#">美容美颜</a></li>
+                        <li><a href = "#">改善睡眠</a></li>
+                        <li><a href = "#">肝肠胃</a></li>
+                        <li><a href = "#">眼睛养护</a></li>
+                        <li><a href = "#">儿童营养</a></li>
+                        <li><a href = "#">男性健康</a></li>
+                        <li><a href = "#">女性健康</a></li>
+                    </ul>
+                </div>
+                <div class = "menu_item1">
+                    <span>适用人群</span>
+                    <ul class = "menu_list">
+                        <li><a href = "#">魅力女人</a></li>
+                        <li><a href = "#">成功男人</a></li>
+                        <li><a href = "#">幸孕妈妈</a></li>
+                        <li><a href = "#">快乐宝贝</a></li>
+                        <li><a href = "#">长寿爸妈</a></li>
+                        <li><a href = "#">全家呵护</a></li>
+                    </ul>
+                </div>
+                <div class = "menu_item1">
+                    <span>营养属性</span>
+                    <ul class = "menu_list">
+                        <li><a href = "#">维生素</a></li>
+                        <li><a href = "#">钙铁锌</a></li>
+                        <li><a href = "#">氨糖软骨素</a></li>
+                        <li><a href = "#">鱼油/DHA</a></li>
+                        <li><a href = "#">胶原蛋白</a></li>
+                        <li><a href = "#">速溶饮品</a></li>
+                        <li><a href = "#">酵素/果蔬粉</a></li>
+                        <li><a href = "#">能量棒</a></li>
+                        <li><a href = "#">益生菌</a></li>
+                        <li><a href = "#">灵芝虫草</a></li>
+                    </ul>
+                </div>
+                <div class = "menu_item1">
+                    <span>国别地区</span>
+                    <ul class = "menu_list">
+                        <li><a href = "#">美国</a></li>
+                        <li><a href = "#">澳大利亚</a></li>
+                        <li><a href = "#">新西兰</a></li>
+                        <li><a href = "#">香港</a></li>
+                        <li><a href = "#">日本</a></li>
+                        <li><a href = "#">德国</a></li>
+                        <li><a href = "#">英国</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <ul class = "menu_right">
+                <li class = "vt_nav01_more">
+                    <p>目的功能</p>
+                    <div>
+                        <a href = "#">基础营养</a>
+                        <a href = "#">体重管理</a>
+                        <a href = "#">调节血糖</a>
+                        <a href = "#">增强免疫力</a>
+                        <a href = "#">关节保养</a>
+                        <a href = "#">心脑血管</a>
+                        <a href = "#">传统滋补</a>
+                        <a href = "#">运动营养</a>
+                        <a href = "#">美容美颜</a>
+                        <a href = "#">改善睡眠</a>
+                        <a href = "#">肝肠胃</a>
+                        <a href = "#">眼睛养护</a>
+                        <a href = "#">儿童营养</a>
+                        <a href = "#">男性健康</a>
+                        <a href = "#">女性健康</a>
+                    </div>
+                </li>
+                <li class = "vt_nav01_brand">
+                    <p>热门品牌</p>
+                    <div>
+                        <a href = "#"><img src = "../img/brand01.jpg" title = ""></a>
+                        <a href = "#"><img src = "../img/brand2.jpg" title = ""></a>
+                        <a href = "#"><img src = "../img/brand3.jpg" title = ""></a>
+                        <a href = "#"><img src = "../img/brand4.jpg" title = ""></a>
+                        <a href = "#"><img src = "../img/brand5.jpg" title = ""></a>
+                        <a href = "#"><img src = "../img/brand6.jpg" title = ""></a>
+                        <a href = "#"><img src = "../img/brand7.jpg" title = ""></a>
+                        <a href = "#"><img src = "../img/brand8.jpg" title = ""></a>
+                        <a href = "#"><img src = "../img/brand9.jpg" title = ""></a>
+                        <a href = "#"><img src = "../img/brand10.jpg" title = ""></a>
+                        <a href = "#"><img src = "../img/brand1.jpg" title = ""></a>
+                        <a href = "#"><img src = "../img/brand2.jpg" title = ""></a>
+                        <a href = "#"><img src = "../img/brand3.jpg" title = ""></a>
+                        <a href = "#"><img src = "../img/brand4.jpg" title = ""></a>
+                        <a href = "#"><img src = "../img/brand5.jpg" title = ""></a>
+                    </div>
+                </li>
+            </ul>
+
+            <ul class = "menu_right">
+                <li class = "vt_nav01_more">
+                    <p>适用人群</p>
+                    <div>
+                        <a href = "#">魅力女人</a>
+                        <a href = "#">成功男人</a>
+                        <a href = "#">幸孕妈妈</a>
+                        <a href = "#">快乐宝贝</a>
+                        <a href = "#">长寿爸妈</a>
+                    </div>
+                </li>
+                <li class = "vt_nav01_brand">
+                    <p>热门品牌</p>
+                    <div>
+                        <a href = "#"><img src = "../img/brand10.jpg" title = ""></a>
+                        <a href = "#"><img src = "../img/brand3.jpg" title = ""></a>
+                        <a href = "#"><img src = "../img/brand4.jpg" title = ""></a>
+                        <a href = "#"><img src = "../img/brand5.jpg" title = ""></a>
+                        <a href = "#"><img src = "../img/brand6.jpg" title = ""></a>
+                        <a href = "#"><img src = "../img/brand7.jpg" title = ""></a>
+                        <a href = "#"><img src = "../img/brand8.jpg" title = ""></a>
+                        <a href = "#"><img src = "../img/brand9.jpg" title = ""></a>
+                        <a href = "#"><img src = "../img/brand1.jpg" title = ""></a>
+                        <a href = "#"><img src = "../img/brand1.jpg" title = ""></a>
+                        <a href = "#"><img src = "../img/brand2.jpg" title = ""></a>
+                        <a href = "#"><img src = "../img/brand3.jpg" title = ""></a>
+                        <a href = "#"><img src = "../img/brand4.jpg" title = ""></a>
+                    </div>
+                </li>
+            </ul>
+
+            <ul class = "menu_right">
+                <li class = "vt_nav01_more">
+                    <p>营养属性</p>
+                    <div>
+                        <a href = "#">维生素</a>
+                        <a href = "#">钙铁锌</a>
+                        <a href = "#">氨糖软骨素</a>
+                        <a href = "#">鱼油/DHA</a>
+                        <a href = "#">胶原蛋白</a>
+                        <a href = "#">速溶饮品</a>
+                        <a href = "#">酵素/果蔬粉</a>
+                        <a href = "#">能量棒</a>
+                        <a href = "#">益生菌</a>
+                        <a href = "#">灵芝虫草</a>
+                    </div>
+                </li>
+                <li class = "vt_nav01_brand">
+                    <p>热门品牌</p>
+                    <div>
+                        <a href = "#"><img src = "../img/brand2.jpg" title = ""></a>
+                        <a href = "#"><img src = "../img/brand3.jpg" title = ""></a>
+                        <a href = "#"><img src = "../img/brand4.jpg" title = ""></a>
+                        <a href = "#"><img src = "../img/brand5.jpg" title = ""></a>
+                        <a href = "#"><img src = "../img/brand6.jpg" title = ""></a>
+                        <a href = "#"><img src = "../img/brand7.jpg" title = ""></a>
+                        <a href = "#"><img src = "../img/brand8.jpg" title = ""></a>
+                        <a href = "#"><img src = "../img/brand9.jpg" title = ""></a>
+                        <a href = "#"><img src = "../img/brand10.jpg" title = ""></a>
+                        <a href = "#"><img src = "../img/brand1.jpg" title = ""></a>
+                    </div>
+                </li>
+            </ul>
+
+            <ul class = "menu_right">
+                <li class = "vt_nav01_more">
+                    <p>国别地区</p>
+                    <div>
+                        <a href = "#">美国</a>
+                        <a href = "#">澳大利亚</a>
+                        <a href = "#">新西兰</a>
+                        <a href = "#">香港</a>
+                        <a href = "#">日本</a>
+                        <a href = "#">德国</a>
+                        <a href = "#">英国</a>
+                    </div>
+                </li>
+                <li class = "vt_nav01_brand">
+                    <p>热门品牌</p>
+                    <div>
+                        <a href = "#"><img src = "../img/brand2.jpg" title = ""></a>
+                        <a href = "#"><img src = "../img/brand3.jpg" title = ""></a>
+                        <a href = "#"><img src = "../img/brand4.jpg" title = ""></a>
+                        <a href = "#"><img src = "../img/brand5.jpg" title = ""></a>
+                        <a href = "#"><img src = "../img/brand6.jpg" title = ""></a>
+                        <a href = "#"><img src = "../img/brand10.jpg" title = ""></a>
+                        <a href = "#"><img src = "../img/brand8.jpg" title = ""></a>
+                        <a href = "#"><img src = "../img/brand9.jpg" title = ""></a>
+                        <a href = "#"><img src = "../img/brand1.jpg" title = ""></a>
+                        <a href = "#"><img src = "../img/brand7.jpg" title = ""></a>
+                        <a href = "#"><img src = "../img/brand2.jpg" title = ""></a>
+                        <a href = "#"><img src = "../img/brand3.jpg" title = ""></a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!--公共头部止-->
+
+<!--轮播广告s-->
+<div class = "vt_banner flexslider" id = "banner_tabs">
+    <ul class = "sliders">
+        <!--<li><a href = "#"><img src = "img/banner01.jpg" /></a></li>
+        <li><a href = "#"><img src = "img/banner02.jpg" /></a></li>
+        <li><a href = "#"><img src = "img/banner03.jpg" /></a></li>
+        <li><a href = "#"><img src = "img/banner04.jpg" /></a></li>
+        <li><a href = "#"><img src = "img/banner05.jpg" /></a></li>-->
+        <li><a href = "#" id = "ban1" class = "imgOn"></a></li>
+        <li><a href = "#" id = "ban2"></a></li>
+        <li><a href = "#" id = "ban3"></a></li>
+        <li><a href = "#" id = "ban4"></a></li>
+        <li><a href = "#" id = "ban5"></a></li>
+    </ul>
+    <ol id = "bannerCtrl" class = "flex-control-nav flex-control-paging">
+        <li><a class = "flex-active">1</a></li>
+        <li><a>2</a></li>
+        <li><a>3</a></li>
+        <li><a>4</a></li>
+        <li><a>5</a></li>
+    </ol>
+</div>
+
+<!--特卖s-->
+<div class="vt_sale">
+    <div class="vt_sale_top">
+        火爆单品  限时特卖
+    </div>
+    <div class="vt_sale_container">
+        <a href="http://www.vitagou.hk/products/id/1429" target="_blank"><img class="goods_img" data-original="/upload/2016/08/22/20160822091725116.jpg" src="../img/goods1.jpg" style="display: block;"></a>
+        <ul class="vt_sale_main">
+            <li class="vt_sale_main01">
+                <img data-original="/upload/image/flag/ausFlag.png" src="../img/goods1-loc.png" style="display: block;">
+                <p>
+                    澳大利亚/Blackmores/澳佳宝<br>
+                    澳大利亚仓发货
+                </p>
+                <p class="prolist" style="color:red;">限时特卖：<b class="endtime showtime" value="2016-09-12 10:00:00">3天0小时9分38.4秒</b></p>
+                <input type="hidden" name="end" value="2016-09-12 10:00:00">
+                <span class="day_01">
+                </span>
+            </li>
+            <li class="vt_sale_main02">
+                <a href="http://www.vitagou.hk/products/id/1429" target="_blank"> 澳佳宝 高能复合维生素B族 抗压舒缓疲劳 75片/瓶</a>
+            </li>
+            <li class="vt_sale_main03">
+                【每天1片，75天量】补充您在工作繁重时消耗的营养，帮助食物转化成能量，有利于人体肠胃的健康。有效维持神经系统的正常功能，舒缓压力感，使我们神经体统更健康，是一种高能配方维生素。            </li>
+            <li class="vt_sale_main04">
+                <div class="vt_sale_main04_left">
+                    <p>
+                        促销价：  <strong>￥108.00</strong>
+                    </p>
+                    <p>
+                        <span>市场价：   <del>￥399.00</del></span>
+                        <!--<span>：￥399.00</span>-->
+                    </p>
+                </div>
+                <input type="hidden" name="user_id" value="" class="user_id">
+                <input type="button" onclick="addGoodsCart7($(this), 1429, 1,0)" value="加入购物车">
+            </li>
+        </ul>
+    </div>
+    <div class="vt_sale_container">
+        <a href="http://www.vitagou.hk/products/id/1282" target="_blank"><img class="goods_img" data-original="/upload/2016/08/22/20160822091834702.jpg" src="../img/goods2.jpg" style="display: block;"></a>
+        <ul class="vt_sale_main">
+            <li class="vt_sale_main01">
+                <img data-original="/upload/image/flag/gerFlag.png" src="../img/goods2-loc.png" style="display: block;">
+                <p>
+                    德国/Doppelherz/双心<br>
+                    德国仓发货
+                </p>
+                <p class="prolist" style="color:red;">限时特卖：<b class="endtime showtime" value="2016-09-12 10:00:00">3天0小时9分38.4秒</b></p>
+                <input type="hidden" name="end" value="2016-09-12 10:00:00">
+                <span class="day_01">
+                </span>
+            </li>
+            <li class="vt_sale_main02">
+                <a href="http://www.vitagou.hk/products/id/1282" target="_blank"> 双心叶黄素护眼软胶囊30粒 改善视力缓解眼疲劳 2盒装</a>
+            </li>
+            <li class="vt_sale_main03">
+                叶黄素富含健康视力所需的多种养分以及抗氧化剂，对长期用眼过度，眼睛干燥， 眨眼频繁， 眼部疼痛，不适， 视觉模糊的人群， 叶黄素是很好的保健品。每日一粒，饭后用温水送服，双心陪你爱眼护眼。            </li>
+            <li class="vt_sale_main04">
+                <div class="vt_sale_main04_left">
+                    <p>
+                        促销价：  <strong>￥108.00</strong>
+                    </p>
+                    <p>
+                        <span>市场价：   <del>￥358.00</del></span>
+                        <!--<span>：￥358.00</span>-->
+                    </p>
+                </div>
+                <input type="hidden" name="user_id" value="" class="user_id">
+                <input type="button" onclick="addGoodsCart7($(this), 1282, 1,0)" value="加入购物车">
+            </li>
+        </ul>
+    </div>
+    <div class="vt_sale_container">
+        <a href="http://www.vitagou.hk/products/id/1187" target="_blank"><img class="goods_img" data-original="/upload/2016/08/22/20160822091759915.jpg" src="../img/goods3.jpg" style="display: block;"></a>
+        <ul class="vt_sale_main">
+            <li class="vt_sale_main01">
+                <img data-original="/upload/image/flag/ausFlag.png" src="../img/goods1-loc.png" style="display: block;">
+                <p>
+                    澳大利亚/Swisse<br>
+                    澳大利亚仓发货
+                </p>
+                <p class="prolist" style="color:red;">限时特卖：<b class="endtime showtime" value="2016-09-12 10:00:00">3天0小时9分38.4秒</b></p>
+                <input type="hidden" name="end" value="2016-09-21 10:00:00">
+                <span class="day_01">
+                </span>
+            </li>
+            <li class="vt_sale_main02">
+                <a href="http://www.vitagou.hk/products/id/1187" target="_blank"> swisse有机螺旋藻片50g 100片/瓶</a>
+            </li>
+            <li class="vt_sale_main03">
+                螺旋藻所富有的叶绿素，铁，维生素等天然成分有助于调节人体免疫，强化骨骼健康。Swisse螺旋藻以片剂的形式，服用简单方便，小小一片锁住螺旋藻天然的丰富营养~            </li>
+            <li class="vt_sale_main04">
+                <div class="vt_sale_main04_left">
+                    <p>
+                        促销价：  <strong>￥109.00</strong>
+                    </p>
+                    <p>
+                        <span>市场价：   <del>￥499.00</del></span>
+                        <!--<span>：￥499.00</span>-->
+                    </p>
+                </div>
+                <input type="hidden" name="user_id" value="" class="user_id">
+                <input type="button" onclick="addGoodsCart7($(this), 1187, 1,0)" value="加入购物车">
+            </li>
+        </ul>
+    </div>
+
+<!--公共尾部起-->
+<!--底部流程介绍-->
+<div class="footer_top">
+    <div class="footer_top_main">
+        <img src="../img/footer_top_banner.jpg">
+    </div>
+</div>
+
+<!--操作服务、链接等信息集合-->
+<div class="footer_inforbox">
+    <div class="footer_block">
+        <div class="block_one">
+            <p class="phone_png"><span></span><label>400&nbsp;630&nbsp;7111</label></p>
+            <p class="time">周一到周日<label>8：30</label>~<label>22：30</label></p>
+            <div class="wx_sina">
+                关注我们
+                <a href="http://www.vitagou.com/#" class="wx"><span></span><img src="../img/ewm_weibo.jpg"></a>
+                <a href="http://www.vitagou.com/#" class="sina"><span></span><img src="../img/ewm_weixin.jpg"></a>
+            </div>
+        </div>
+        <ul class="block_two currency">
+            <label>服务保障</label>
+            <li><a href="http://www.vitagou.com/kefu/fuwubaozhang/2016/0623/673.html">海外正品</a></li>
+            <li><a href="http://www.vitagou.com/kefu/fuwubaozhang/2016/0623/658.html">七天无忧退货</a></li>
+        </ul>
+        <ul class="block_three currency">
+            <label>新手指南</label>
+            <li><a href="http://www.vitagou.com/kefu/xinshouzhinan/2016/0623/672.html">购物须知</a></li>
+            <li><a href="http://www.vitagou.com/kefu/xinshouzhinan/2016/0623/659.html">购物流程</a></li>
+            <li><a href="http://www.vitagou.com/kefu/xinshouzhinan/2016/0623/660.html">清关关税</a></li>
+            <li><a href="http://www.vitagou.com/kefu/xinshouzhinan/2016/0623/661.html">实名认证</a></li>
+            <li><a href="http://www.vitagou.com/kefu/xinshouzhinan/2016/0623/662.html">常见问题</a></li>
+        </ul>
+        <ul class="block_four currency">
+            <label>支付方式</label>
+            <li><a href="http://www.vitagou.com/kefu/zhifufangshi/2016/0623/663.html">支付宝支付</a></li>
+            <li><a href="http://www.vitagou.com/kefu/zhifufangshi/2016/0623/664.html">微信支付</a></li>
+        </ul>
+        <ul class="block_five currency">
+            <label>商家支持</label>
+
+            <li><a href="http://www.vitagou.com/sales/xiaoshouhezuo/">销售合作</a></li>
+            <li><a href="http://www.vitagou.com/sales/zhaoshanghezuo/">招商合作</a></li>
+        </ul>
+        <ul class="block_six currency">
+            <label>关于我们</label>
+            <li><a href="http://www.vitagou.com/about/2016/0623/667.html">VitaGou.com简介</a></li>
+            <li><a href="http://www.vitagou.com/about/2016/0623/669.html">联系我们</a></li>
+        </ul>
+        <div class="block_seven">
+            <span>Vitagou微信</span>
+            <img src="../img/weixin_public_num.jpg">
+            <label>随手扫一扫，优惠全知晓!</label>
+        </div>
+    </div>
+</div>
+
+<!--底部内容-->
+<div class="footer_bottom">
+    <ul class="one_list" style="padding-top:8px;">
+        <li><a href="http://www.vitagou.com/about/2016/0623/670.html">维他购国际(香港)</a>|</li>
+        <li><a href="http://www.vitagou.com/about/2016/0623/671.html">湖南维他购</a>|</li>
+        <li><a href="http://www.vitagou.com/news">VitaGou新闻</a>|</li>
+        <li><a href="http://www.vitagou.com/about/2016/0514/621.html">隐私保护</a>|</li>
+        <li><a href="http://www.vitagou.com/about/2016/0514/619.html">免责条款</a>|</li>
+        <!--<li><a href="/about/2016/0514/620.html">招贤纳士</a></li>-->
+        <li><a href="http://www.vitagou.com/about/2016/0514/620.html">友情链接</a></li>
+    </ul>
+    <ul class="two_list">
+        <li><a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=43010502000020" target="_blank"><span></span>湘公网安备43010502000020号</a>|</li>
+        <li><a href="http://www.vitagou.com/about/2016/0526/623.html">湘ICP证 B2-20160026</a>|</li>
+        <li><a>湘ICP备 15012707号-1</a>|</li>
+        <li class="pad_pg"><a target="_blank" href="http://www.hngswj.gov.cn/ei/Ei!certificate.action?id=2c99021453eaccf30154b8a1cf740191"><span></span>工商网监</a></li>
+    </ul>
+    <ul class="one_list four_list">
+        <li><a target="_blank" href="http://www.cseca.net/xhdt/xhtz/1349.html">长沙市电商协会理事单位</a>|</li>
+        <li><a href="http://www.vitagou.com/#">本站法律支持单位：湖南天地人律师事务所</a></li>
+    </ul>
+    <ul class="one_list three_list">
+        <li><a href="http://www.vitagou.com/#">© 2014－2016 VitaGou.com, All rights reserved</a>|</li>
+        <li><a href="http://www.vitagou.com/#">维他购 VitaGou.com 版权所有，并保留所有权利！</a></li>
+    </ul>
+</div>
+
+
+</body>
+</html>
