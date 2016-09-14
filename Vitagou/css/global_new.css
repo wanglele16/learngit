@@ -28,9 +28,9 @@ input[type=button], input[type=submit], input[type=file], button {
   overflow: hidden;
   visibility: hidden; }
 
-h1, h2, h3, h4, h5, h6, b, strong {
-  font-weight: normal; }
-
+/*h1, h2, h3, h4, h5, h6, b, strong {
+  font-weight: normal;
+}*/
 em, i {
   font-style: normal; }
 
