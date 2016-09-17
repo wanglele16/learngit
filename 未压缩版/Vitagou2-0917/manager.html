@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>管理系统</title>
+		<link rel = "stylesheet" type="text/css"  href = "css/manager.css"/>
+        <script type = "text/javascript" src = js/jquery-3.1.0.js></script>
+        <script type = "text/javascript" src = js/manager.js></script>
+	</head>
+	<body>
+		
+		<div class = "top">
+			<div class = "topL">后台管理系统</div>
+			<div class = "topR">
+				<div class = "login">
+					<span>
+						<a href = "#" class = "welcome">欢迎您：admin !
+						</a> <a href = "#" class = "quit">退出</a>
+					</span>
+				</div>
+				<ul class = "show">
+					<li class = "show5"><a href = "#">数据管理</a></li>
+					<li class = "show6"><a href = "#">数据分析</a></li>
+					<li class = "show6"><a href = "#">数据同步</a></li>
+					<li class = "show7"><a href = "#">系统管理</a></li>
+				</ul>
+			</div>
+		</div>
+		
+		<div class  = "bottom">
+			
+			<div class = "left">
+				<div class = "side"></div>
+				<div class = "infor infor-first">
+					<a href = "html/manage-goods.html" target = "newframe">商品信息</a>
+				</div>
+                <div class = "specific">
+                    <div class = "infor1"><a href = "html/manage-goods.html" target = "newframe">管理商品</a></div>
+                    <div class = "infor1"><a href = "html/add-goods.html" target = "newframe">添加商品</a></div>
+                    <div class = "infor1"><a href = "html/search-goods.html" target = "newframe">查询商品</a></div>
+                </div>
+				<div class = "infor api">
+					<a href = "#">用户信息</a>
+				</div>
+				<div class = "infor total">
+					<a href = "#">市场需求</a>
+				</div>
+				<div class = "border">
+					<a href = "#" class = "btn1"></a>
+				</div>
+			</div>
+			
+			<div class = "right">
+				<iframe src = "html/manage-goods.html" name = "newframe">
+				</iframe>
+			</div>
+			
+		</div>
+		
+	</body>
+</html>

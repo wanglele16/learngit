@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,MAAM;EACJ,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI",
+"sources": ["manage-goods.scss"],
+"names": [],
+"file": "manage-goods.css"
+}

@@ -1,0 +1,181 @@
+/*������֪*/
+.state_container{
+    width: 1190px;
+    background: #ffffff;
+    margin:10px auto;
+    padding: 10px 0;
+}
+.state_container dl dt{
+    margin-bottom: 20px;
+    margin-left: 20px;
+    font-size: 14px;
+}
+.state_container dl dd{
+    margin: 10px 0 0 20px;
+}
+.state_container dl dd a{
+    color: #d30939!important;
+    display: inline;
+}
+/*����˰�۸�?������*/
+.float_state{
+    width: 100%;
+}
+.float_state .float_state_main{
+    background-color: #ffffff;
+    width: 1190px;
+    margin: 40px auto;
+    height: 900px;
+    overflow-y: scroll;
+}
+.float_state .float_state_main h3{
+    background-color: #e6e6e6;
+    width: 1190px;
+    text-align: center;
+    padding: 10px 0;
+    margin: 0;
+    overflow: hidden;
+}
+.float_state .float_state_main h3 strong{
+    float: left;
+    margin-left: 500px;
+}
+.float_state .float_state_main h3 p{
+    width: 16px;
+    height: 16px;
+    background-image: url("../img/icon.png");
+    background-repeat: no-repeat;
+    background-position: -60px -62px;
+    float: right;
+    margin-right: 30px;
+    margin-top: 4px;
+}
+.float_state .float_state_main .float_state_main_font .main{
+    margin: 0 60px;
+    font-size: 12px;
+}
+.float_state .float_state_main .float_state_main_font .main p{
+    margin: 0 60px;
+    line-height: 24px;
+}
+.float_state .float_state_main .float_state_main_font .main p span{
+    margin-left: 100px;
+}
+.float_state .float_state_main .float_state_main_font .main_img{
+    width: 820px;
+    margin:30px auto;
+}
+.float_state .float_state_main .float_state_main_font .main_img h4{
+    text-align: center;
+}
+/*��Ʒ*/
+.product_container{
+    width: 1190px;
+    margin: 10px auto;
+    clear: both;
+}
+.product_container ul li{
+    float: left;
+    margin: 10px 4px;
+    font-size: 14px;
+}
+.product_container ul .product_container_last{
+    float: right;
+}
+.product_container ul .product_container_last span{
+    width: 20px;
+    height: 14px;
+    display: block;
+    background-image: url("../img/icon.png");
+    background-repeat: no-repeat;
+    background-position: -41px -62px;
+    float: left;
+    margin-right: 4px;
+    margin-top: 2px;
+}
+.product_container ul .product_container_last a{
+    float: left;
+}
+.product_container .product{
+    clear: both;
+}
+.product_container .product dl{
+    float: left;
+    background-color: #ffffff;
+    margin-right: 10px;
+    width: 224px;
+    border: 1px solid #dedede;
+    margin-bottom: 20px;
+}
+.product_container .product .last{
+    margin-right: 0;
+}
+.product_container .product dl dt{
+    height:232px;
+    border-bottom: 1px solid #dedede;
+}
+.product_container .product dl dt img{
+    max-height: 230px;
+    max-width:222px;
+}
+.product_container .product dl dd a{
+    margin: 10px 2px 10px 10px;
+    line-height: 14px;
+    font-size: 12px;
+}
+
+.product_container .product dl dd a:hover{
+    text-decoration: none;
+}
+/* 20160621修改 */
+.product_container .product dl dd a p{
+    /* font-weight: bold; */    /* 20160621修改 */
+	font-size: 14px;
+	 /* 20160621新增 */
+    line-height: 20px;
+    overflow: hidden;
+    height: 45px;
+	 /* 20160621新增 */
+}
+.product_container .product dl dd a p:hover{
+    color: #424242;
+}
+.product_container .product dl dd a strong{
+    color: #d30939;
+    font-size: 14px;
+}
+.product_container .product dl dd a span{
+    text-decoration: line-through;
+}
+/*null_container*/
+.null_container{
+    width: 1190px;
+    height: 424px;
+    margin: auto;
+}
+.null_container ul{
+    width: 360px;
+    height: 32px;
+    margin: auto;
+    padding: 190px 0;
+    font-size: 16px;
+}
+.null_container ul li{
+    float: left;
+    margin: 0 6px;
+    line-height: 32px;
+}
+.null_container ul li p{
+    width: 28px;
+    height: 28px;
+    background-image: url("../img/icon.png");
+    background-repeat: no-repeat;
+    background-position: -171px -111px;
+}
+.null_container ul li span{
+    font-weight: bold;
+}
+.null_container ul li a{
+    color: #d30939!important;
+    font-size: 22px;
+}

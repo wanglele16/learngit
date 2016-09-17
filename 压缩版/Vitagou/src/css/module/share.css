@@ -1,0 +1,130 @@
+.prodDetail {
+  width: 96.875%;
+  margin: 0 auto; }
+
+.prodAd {
+  text-align: center; }
+
+.prodAd img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto; }
+
+.prodAd .chineseName {
+  display: inline-block;
+  background: #ee2975;
+  font-size: 1.875rem;
+  color: #fff;
+  height: 3.125rem;
+  line-height: 3.125rem;
+  font-style: normal;
+  padding: 0 1.25rem;
+  border-radius: 1.25rem; }
+
+.prodAd .englishName {
+  color: #ee2975;
+  font-size: 1.4rem;
+  line-height: 3.125rem; }
+
+.prodAd ul {
+  width: 100%;
+  padding: 1rem 8%;
+  height: auto;
+  overflow: hidden;
+  background: #f7f7f7;
+  box-sizing: border-box; }
+
+.prodAd ul li {
+  width: 50%;
+  float: left;
+  color: #ee2975;
+  font-size: 1.375rem;
+  line-height: 2.1875rem;
+  text-align: left;
+  text-indent: 1.25rem; }
+
+.prodInfo {
+  height: auto;
+  overflow: hidden; }
+
+.prodInfo h4, .proImg h4 {
+  height: 2.5rem;
+  line-height: 2.5rem;
+  background: #ee2975;
+  font-size: 1.5625rem;
+  color: #fff;
+  text-indent: 1.25rem; }
+
+.proInfoCon h5 {
+  font-size: 2.3rem;
+  color: #ee2975;
+  margin-bottom: 1.25rem;
+  text-align: center;
+  margin-top: 2.375rem; }
+
+/*.prodInfo img{display:block;float: right; width:40%;max-width: 100%; margin:1.875rem auto 0}*/
+.proInfoCon {
+  padding: 0 3%;
+  height: auto;
+  overflow: hidden; }
+
+.proInfoCon dl {
+  float: left;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  margin-bottom: .5rem; }
+
+.proInfoCon dl dt, .proInfoCon dl dd {
+  float: left;
+  line-height: 2rem;
+  font-size: 1.5rem; }
+
+.proInfoCon dl dt {
+  width: 28%;
+  height: 2rem;
+  background: #ee2975;
+  color: #fff;
+  text-align: center; }
+
+.proInfoCon dl dd {
+  width: 70%;
+  padding-left: 2%; }
+
+.prodInfo .tips {
+  padding: 20px;
+  font-size: 18px;
+  color: #4c4c4c;
+  line-height: 30px;
+  background: #f7f7f7;
+  margin-bottom: 25px; }
+
+.proImg {
+  text-align: center;
+  margin-top: 1.875rem;
+  width: 100%; }
+
+.proImg h4 {
+  text-align: left; }
+
+.proImg img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto; }
+
+/*
+@media all and (max-width: 640px) {
+  html{ font-size: 80%}
+  .prodAd ul{  padding: 1rem 5%;}
+  .prodAd ul li{background-size:7%}
+  .proInfoCon h5{font-size: 2.2rem;}
+  .prodAd .englishName{font-size: 1.2rem;}
+  .prodAd img{  max-width: 80%;}
+  .proImg img{max-width:80%}
+}
+@media all and (max-width: 320px) {
+  html{ font-size: 70%}
+}*/
+/*# sourceMappingURL=share.css.map */
+
+/*# sourceMappingURL=share.css.map */

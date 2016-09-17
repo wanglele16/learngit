@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<style>
+    body {
+        width: 97%;
+        height: 100%;
+        margin: 0 auto;
+        padding: 0;
+        font: 12px 'microsoft yahei';
+    }
+    .head{
+        height: 26px;
+        font-size: 12px;
+        line-height: 26px;
+        color: #636363;
+        border-bottom: 1px solid #E3E3E3;
+    }
+
+    .head span{
+        display: block;
+        float: left;
+        margin-top: 5px;
+        width: 16px;
+        height: 20px;
+        background: url(../img/icon2.png) no-repeat left -400px top -300px;
+    }
+
+    .head a {
+        color: #636363;
+    }
+    table, tr, td{
+        margin: 0;
+        padding: 0;
+    }
+
+    table{
+        margin-top: 10px;
+        margin-bottom: 20px;
+        width: 98%;
+        margin-left: 5px;
+        border: 1px solid #D6D6D6;
+        border-bottom: none;
+        border-collapse: collapse;
+        table-layout: fixed;
+        text-align: center;
+    }
+
+    table td{
+        height: 30px;
+        border-bottom: 1px solid #D6D6D6;
+    }
+    .one{
+        font-weight: bold;
+    }
+
+
+    tr:nth-child(odd){
+        background: #F1F1F1;
+    }
+
+    td input{
+        vertical-align: middle;
+        width: 80%;
+        height: 80%;
+    }
+
+    td span, td i, td em{
+        display: block;
+        margin: 0 auto;
+        height: 30px;
+        width: 20px;
+        background: url(../img/icon2.png) no-repeat;
+    }
+
+    td span{
+        background-position: right 0 top 8px;
+    }
+
+    td i{
+        background-position: right 0 top -94px;
+    }
+
+    td em{
+        background-position: right 0 top -192px;
+    }
+
+    #btn2, #btn1 {
+        float: right;
+        margin-right: 40px;
+        height: 30px;
+        width: 60px;
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+</style>
+<body>
+<div class = "head">
+    <span></span>
+    当前位置>>
+    <a href = "#">数据管理</a> >>
+    <a href = "#">商品信息</a> >>
+    <a href = "#">管理商品</a>
+</div>
+<table>
+    <tr class = "one">
+        <td>商品编号</td>
+        <td>图片地址</td>
+        <td>商品名称</td>
+        <td>现价</td>
+        <td>原价</td>
+        <td>评论数量</td>
+        <td>好评百分比</td>
+    </tr>
+    <tr>
+        <td><input type = "text" /></td>
+        <td><input type = "text" /></td>
+        <td><input type = "text" /></td>
+        <td><input type = "text" /></td>
+        <td><input type = "text" /></td>
+        <td><input type = "text" /></td>
+        <td><input type = "text" /></td>
+    </tr>
+</table>
+<input type = "reset" value = "重置" id = "btn2"/>
+<input type = "submit" value = "保存" id = "btn1"/>
+
+<script type = "text/javascript" src = "../js/jquery-3.1.0.js"></script>
+<script>
+    //进去的时候检查url,如果是修改按钮进来的，默认填上值，id 不可改变
+    function urlSearch() {
+        var str = location.href;
+        var num = str.indexOf("?");
+        if (num != -1) {
+            str = str.substr(num + 1);
+            var arr = str.split("&");
+            $(":text").eq(0).val(arr[0]);
+            $(":text").eq(0).attr("disabled", "true");
+            $(":text").eq(1).val(arr[1]);
+            $(":text").eq(2).val(decodeURIComponent(arr[2]));
+            $(":text").eq(3).val(arr[3]);
+            $(":text").eq(4).val(arr[4]);
+            $(":text").eq(5).val(arr[5]);
+            $(":text").eq(6).val(arr[6]);
+        }
+    }
+    urlSearch();
+
+    $(function() {
+
+        //新增功能
+        $("#btn2").click(function() {
+            $(":text").val("");
+            alert("重置成功");
+        });
+        $("#btn1").click(function() {
+            var flag = true;
+            $(":text").each(function(index){
+                if ($(":text").eq(index).val() == "") {
+                    alert("请把信息补充完整！");
+                    flag = false;
+                    return false;
+                }
+            });
+            if (flag) {
+                var ajaxurl = "http://localhost:8080/product/CreateUpdateProduct_get";
+                var ajaxJson = {
+                    imgSrc: $(":text").eq(1).val(),
+                    name: $(":text").eq(2).val(),
+                    newPrice: $(":text").eq(3).val(),
+                    oldPrice: $(":text").eq(4).val(),
+                    commentsNum: $(":text").eq(5).val(),
+                    commentsPer: $(":text").eq(6).val()
+                };
+                var dataStr = JSON.stringify(ajaxJson);
+                $.ajax({
+                    url: ajaxurl,
+                    data: {
+                        id: $(":text").eq(0).val(),
+                        dataJson: dataStr
+                    },
+                    success:function(data){
+                        if(data==1){
+                            alert("成功");
+                        }else{
+                            alert("失败");
+                        }
+                    },
+                    error:function(){
+                        alert("ajax error");
+                    }
+                });
+                $(":text").val("");
+            }
+
+        });
+    });
+</script>
+</body>
+</html>

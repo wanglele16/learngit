@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,mBAAmB;EACf,eAAe,EAAE,IAAI;EACrB,OAAO,EAAE,KAAK;EACd,KAAK,EAAE,OAAO;EACd,MAAM,EAAE,OAAO;;AAEnB,iBAAkB;EACd,KAAK,EAAE,OAAO",
+"sources": ["foot.scss"],
+"names": [],
+"file": "foot.css"
+}

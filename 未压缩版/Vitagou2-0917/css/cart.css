@@ -1,0 +1,250 @@
+.cart_main{
+    width: 1190px;
+    margin: auto;
+}
+
+.cart_main_title{
+    height: 60px;
+    line-height: 60px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "微软雅黑";
+    color: #000000;
+}
+
+.cart_main_title strong{
+    color: #d30939;
+}
+
+.cart_main_nav{
+    height: 40px;
+    line-height: 40px;
+    background-color: #ffffff;
+}
+
+.cart_main_nav .cart_main_nav_01{
+    width: 660px;
+}
+
+.cart_main_nav li{
+    text-align: center;
+    float: left;
+    width: 100px;
+}
+
+.cart_shop_nav{
+    height: 40px;
+    line-height: 40px;
+    background-color: #dedede;
+}
+
+.cart_shop_nav li{
+    float: left;
+}
+
+.cart_shop_nav_01{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.cart_shop_nav_01 input{
+    float: left;
+    margin-right: 30px;
+}
+
+.cart_shop_nav_01 p{
+    line-height: 20px;
+    height: 20px;
+    width: 100px;
+    background-color: #d30939;
+    color: #ffffff;
+    text-align: center;
+    float: left;
+}
+
+.cart_shop_nav_02{
+    margin-left: 10px;
+}
+
+.cart_shop_nav_02 span{
+    display: block;
+    width: 12px;
+    height: 12px;
+    background: url("../images/icon.png") no-repeat -30px -72px;
+    float: left;
+    margin-top: 14px;
+}
+
+.cart_shop_nav_02 a{
+    float: left;
+    margin-left: 10px;
+}
+
+.cart_shop_nav_03{
+    margin-left: 40px;
+}
+
+.cart_main_container{
+    background-color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.cart_shop_main{
+    width: 1190px;
+    background-color: #ffffff;
+    margin:auto;
+    overflow: hidden;
+    padding: 20px 0;
+    height: 120px;
+}
+
+.cart_shop_main li{
+    width: 100px;
+    float: left;
+    text-align: center;
+}
+
+.cart_shop_main .cart_shop_main_01{
+    width: 640px;
+    margin-left: 20px;
+}
+
+.cart_shop_main_01 img{
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 0 10px;
+}
+
+.cart_shop_main_01 input{
+    float: left;
+    margin-top: 50px;
+}
+
+.cart_shop_main_01 span{
+    float: left;
+    margin-top: 50px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.cart_shop_main_02{
+    margin-top: 30px;
+    line-height: 20px;
+    text-align: left!important;
+}
+
+.cart_shop_main_02 p{
+    width: 74px;
+    height: 20px;
+    text-align: center;
+    border: 1px solid #e5e5e5;
+}
+
+.cart_shop_main_04{
+    margin-top: 44px;
+    padding-left: 16px;
+}
+
+.cart_shop_main_04 .cart_shop_minus,
+.cart_shop_main_04 .cart_shop_sum{
+    display: block;
+    height: 28px;
+    width: 18px;
+    background-color: #e6e6e6;
+    float: left;
+    cursor: pointer;
+    border: 1px solid #e5e5e5;
+}
+
+.cart_shop_main_04 input{
+    width: 38px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    border:1px solid #e5e5e5 ;
+    float: left;
+}
+
+.cart_shop_main_05{
+    font-weight: bold;
+    color: #d30939;
+    font-size: 16px;
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+.cart_shop_main_06{
+    margin-top: 40px;
+}
+
+.cart_shop_main_06 a:hover{
+    color: #d30939!important;
+}
+
+.cart_shop_bottom{
+    width: 1150px;
+    height: 54px;
+    line-height: 54px;
+    border-top: 1px solid #e5e5e5;
+    margin: auto;
+}
+
+.cart_shop_bottom li{
+    float: left;
+}
+
+.cart_shop_bottom li span{
+    color:#d30939 ;
+    margin: 0 10px;
+}
+
+.cart_shop_bottom_01{
+    color: #000000;
+}
+
+.cart_shop_bottom_02{
+    padding-left: 30px;
+}
+
+.cart_shop_bottom_03{
+    float: right!important;
+    margin-right: 30px;
+    width: 100px;
+    height: 54px;
+    line-height: 54px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 16px;
+    background-color: #d30939;
+}
+
+.chkBtn{
+    color: #ffffff;
+    font-size: 16px;
+    width: 100px;
+    height: 54px;
+    background-color: #d30939;
+    border: none;
+}
+
+.button_new{
+    color: #ffffff;
+    background-color: #d30939;
+}
+
+.cart_shop_note{
+    background-color: #fff4e8;
+    height: 32px;
+    width: 1190px;
+    margin: auto;
+    line-height: 32px;
+    text-align: center;
+    color: #d30939;
+    display: none;
+}
+
+.cart_shop_bottom_04{
+    background-color:#dedede!important;
+}
+

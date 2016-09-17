@@ -1,0 +1,42 @@
+.pl div {
+  font-size: 16px;
+  float: left;
+  height: 160px;
+  line-height: 160px;
+  margin-bottom: 10px; }
+  .pl div span {
+    display: block;
+    float: left;
+    padding: 5px 0 0 20px; }
+    .pl div span img {
+      width: 246px; }
+  .pl div p {
+    float: left;
+    padding-left: 20px;
+    font-weight: bold;
+    width: 400px;
+    margin: 0 20px; }
+  .pl div a {
+    color: #666;
+    text-decoration: none; }
+    .pl div a:hover {
+      color: #ff0000;
+      text-decoration: underline; }
+
+.pl {
+  /*background: #FFF4E8;*/
+  overflow: hidden; }
+  .pl .c2 {
+    text-align: center;
+    margin: 0 15px;
+    width: 90px; }
+  .pl input {
+    width: 20px;
+    height: 30px;
+    margin: 0 10px;
+    background-color: #e6e6e6;
+    cursor: pointer; }
+  .pl .c3 {
+    margin-left: 20px; }
+
+/*# sourceMappingURL=shop.css.map */

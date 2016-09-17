@@ -1,0 +1,484 @@
+*{margin: 0;padding: 0;font-size: 14px; font-family: tahoma,arial,"Microsoft YaHei","Hiragino Sans GB",sans-serif !important}
+ul,ul li{list-style: none;}
+a,a:hover{text-decoration: none;}
+input[type=button], input[type=submit],
+input[type=file], button {cursor: pointer; -webkit-appearance: none;}
+.clear{clear: both;}
+.iDiv{width: 100%;height: 100%; position:fixed;top:0;left:0;z-index:9998;background: #333333; opacity: 0.5; display: none;}
+
+/*ͷ��*/
+.top_head{
+    width: 100%;
+    background: #ffffff;
+}
+
+.heads_register{
+    width: 1190px;
+    height: 100px;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+.heads_register img{
+    width: 342px;
+    height: 91px;
+    margin-top: 5px;
+    margin-left: 100px;
+}
+
+/*���岿��*/
+.main_register{
+    width: 100%;
+    height: 475px;
+    background: #268997;
+}
+
+.centent_register{
+    width: 1190px;
+    height: 475px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.centent_register img.buy{
+    width: 426px;
+    height: 393px;
+    margin: 40px 0 0 320px;
+    float: left;
+}
+
+.action_register{
+    width: 346px;
+    height: 360px;
+    background: #FFFFFF;
+    float: left;
+    margin-top: 42px;
+    position: relative;
+}
+
+.action_register h3{
+    width: 90%;
+    font-size: 16px;
+    color: #333333;
+    font-weight: normal;
+    margin: 30px 0 0 0;
+    padding-left: 10%;
+}
+
+.login_list{
+    width: 100%;
+    height: 50px;
+}
+
+.login_list li{
+    width: 50%;
+    height: 50px;
+    float: left;
+}
+
+.login_list li a{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    display: block;
+    text-align: center;
+    background: #808080;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.login_list li a.thisbj{
+    background: #ffffff;
+    color: #808080;
+}
+
+.txt_list{
+    width: 90%;
+    margin-top: 20px;
+    padding: 0 0 0 10%;
+}
+
+.txt_list li{
+    width: 100%;
+    height: 38px;
+    line-height: 38px;
+    margin-bottom: 15px;
+}
+
+.txt_list li label{
+    width: 20%;
+    height: 38px;
+    line-height: 38px;
+    float: left;
+    display: block;
+    color: #666666;
+    font-size: 15px;
+}
+
+.txt_list li input[type=text],
+.txt_list li input[type=password]{
+    width: 68%;
+    padding: 10px 1%;
+    float: left;
+    border: 1px solid #CCCCCC;
+    outline: none;
+    color: #808080;
+}
+
+/*.txt_list li input.yzm{
+    width: 35%;
+    float: left;
+}*/
+
+.txt_list li button.fs_yzm{
+    width: 32%;
+    float: left;
+    height: 40px;
+    border: 1px solid #CCCCCC;
+    outline: none;
+    margin-left: 1%;
+    background: #f2f2f2;
+    color: #4c4c4c;
+}
+
+.fz_box{
+    width: 82%;
+    height: 20px;
+    line-height: 20px;
+    position: absolute;
+    top: 165px;
+    left: 10%;
+}
+
+.fz_box span,
+.fz_box a{
+    float: left;
+    font-size: 12px;
+    color: #666666;
+    cursor: pointer;
+}
+
+.fz_box a{
+    float: right;
+}
+
+.fz_box a:hover{
+    color: #D30939;
+}
+
+.fz_box span input[type=checkbox]{
+    width: 15px;
+    height: 15px;
+    margin-top: 2.5px;
+    float: left;
+    margin-right: 5px;
+}
+
+.sub_btn,.login_btn,.sub_btns{
+    width: 85%;
+    height: 35px;
+    margin: 60px auto 0;
+    display: block;
+    background: #e41e4d;
+    color: #ffffff;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.lj_login{
+    width: 20px;
+    height: 100px;
+    text-align: center;
+    color: #D30939;
+    padding: 8px 5px;
+    position: absolute;
+    top: 102px;
+    right: 68px;
+    background: #f2f2f2;
+}
+
+.yx_box{
+    width: 85%;
+    height: 20px;
+    margin: 10px auto 0;
+}
+
+.yx_box input[type=checkbox]{
+    float: left;
+    display: block;
+    width: 15px;
+    height: 15px;
+    margin-top: 2.5px;
+    margin-right: 5px;
+}
+
+.yx_box p{
+    height: 20px;
+    line-height: 20px;
+    float: left;
+    color: #808080;
+    font-size: 12px;
+}
+
+.yx_box p a{
+    color: #0088cc;
+    font-size: 12px;
+}
+
+.lj_login span{
+    width: 16px;
+    height: 16px;
+    margin: 0 auto;
+    background: url("../img/wx_p.png") no-repeat -2px -129px;
+    display: block;
+}
+
+.icon_list{
+    width: 100%;
+    height: 50px;
+    margin-top: 15px;
+    border-top: 1px solid #CCCCCC;
+}
+
+.icon_list li{
+    width: 33%;
+    height: 50px;
+    line-height: 50px;
+    float: left;
+    color: #666666;
+    cursor: pointer;
+}
+
+.icon_list li span{
+    width: 23px;
+    height: 20px;
+    display: block;
+    float: left;
+    padding-left: 5px;
+    margin-left: 20px;
+    margin-top: 15px;
+    background: url("../img/wx_p.png") no-repeat -43px -22px;
+}
+
+.icon_list li span.qq_login{
+    background: url("../img/wx_p.png") no-repeat -43px -46px;
+}
+
+.icon_list li span.wb_login{
+    background: url("../img/wx_p.png") no-repeat -43px 0;
+}
+
+/*������ʾ*/
+.infor_xf{
+    width: 35%;
+    text-align: center;
+    position: absolute;
+    top: 200px;
+    left: 32.5%;
+    padding: 6px 10px;
+    background: #333333;
+    border-radius: 5px;
+    color: #ffffff;
+    display: none;
+}
+
+.bom_foot{
+    width: 100%;
+    height: 100px;
+}
+
+.link_list{
+    width: 800px;
+    height: 100px;
+    margin: 25px auto 0;
+}
+
+.link_list li{
+    width: 100px;
+    height: 30px;
+    float: left;
+    color: #666666;
+    margin-bottom: 10px;
+}
+
+.link_list li a{
+    width: 94px;
+    height: 30px;
+    text-align: center;
+    color: #666666;
+    display: inline-block;
+    font-size: 12px;
+}
+
+.link_list li a:hover{
+    color: #D30939;
+}
+
+.link_list p{
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    color: #666666;
+}
+
+/*ע��ɹ�ҳ��*/
+.main_success{
+    width: 1190px;
+    height: 311px;
+    padding-top: 44px;
+    margin: 0 auto;
+    background: #f1f1f1;
+}
+
+.main_success h2{
+    width: 100%;
+    color: #333333;
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.main_success a{
+    display: block;
+    float: left;
+    color: #333333;
+}
+
+.main_success a:hover{
+    color: #D30939;
+}
+
+.main_success a.setting_psd{
+    margin-left: 484px;
+}
+
+.main_success a.return_index{
+    margin-left: 68px;
+}
+
+/*��������ҳ��*/
+.setting_mm{
+    width: 1190px;
+    height: 311px;
+    padding-top: 44px;
+    margin: 0 auto;
+    background: #f1f1f1;
+}
+
+.setting_mm ul.setting_list{
+    width: 604px;
+    height: 310px;
+    margin: 0 auto;
+}
+
+.setting_mm ul.setting_list li{
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.setting_mm ul.setting_list li label{
+    display: block;
+    padding: 10px 5px;
+    color: #666666;
+    font-size: 14px;
+    float: left;
+}
+
+ul.setting_list li input[type=text],
+ul.setting_list li input[type=password]{
+    width: 210px;
+    padding: 10px 5px;
+    color: #666666;
+    outline: none;
+    margin-bottom: 5px;
+    border: 1px solid #CCCCCC;
+}
+
+.setting_mm ul.setting_list li span{
+    color: #666666;
+    margin-left: 70px;
+}
+
+.setting_sub{
+    width: 114px;
+    height: 32px;
+    background: #D30939;
+    color: #ffffff;
+    border: none;
+    margin-left: 70px;
+    border-radius: 5px;
+}
+
+/*Э��*/
+.popup_panle{
+    width: 954px;
+    height: 508px;
+    border: 4px solid #cccccc;
+    border-radius: 5px;
+    display: none;
+    background: #ffffff;
+}
+
+.popup_panle h3{
+    height: 30px;
+    line-height: 30px;
+    background: #f3f3f3;
+    font-family: '΢���ź�';
+    font-size: 14px;
+    font-weight: bold;
+    color: #333333;
+    text-indent: 15px;
+    border-bottom: 1px solid #cccccc;
+    text-align: left;
+}
+
+.popup_panle span.close_popupPanle{
+    width: 16px;
+    height: 16px;
+    float: right;
+    margin: 8px 5px 0 0;
+    display: block;
+    cursor: pointer;
+    background:#ececec url("../img/wx_p.png") no-repeat -558px -50px;
+    border: 1px solid #666666;
+}
+
+.font_content{
+    width: 930px;
+    height: 390px;
+    font-size: 12px;
+    line-height: 260%;
+    overflow-y: auto;
+    color: #333333;
+
+    margin: 12px 0 0 12px;
+}
+
+.font_content p{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 16px;
+}
+
+.agree_continue{
+    width: 326px;
+    height: 35px;
+    color: #ffffff;
+    background: #c61239;
+    border: none;
+    display: block;
+    margin: 16px auto 0;
+    border-radius: 5px;
+}
+
+.block_hide{
+    display: none;
+}
+
+.block_show{
+    display: block;
+}
+
